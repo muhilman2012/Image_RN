@@ -5,6 +5,7 @@
  */
 
 import React, { Component } from 'react';
+import Judul from './Components/Judul';
 import {
   Platform,
   StyleSheet,
@@ -26,6 +27,7 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
+      <Judul/>
         <Text style={styles.instructions}>Nama : Muhamad Hilman</Text>
         <Text style={styles.instructions}>Kelas : XI RPL 1</Text>
         <Text style={styles.instructions}>No Absen : 22</Text>
